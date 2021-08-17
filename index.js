@@ -5,7 +5,6 @@ const express = require("express");
 const app = express();
 const cheerio = require("cheerio");
 var FormData = require("form-data");
-const fetch = require("node-fetch");
 const fs = require('fs');
 
 //Downloader for video/image
